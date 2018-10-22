@@ -2,18 +2,18 @@
    <servers>
         <server>
             <id>maven-3rdparty</id>
-            <username>it.release</username>
-            <password>release123</password>
+            <username>xxxxxxxxxx</username>
+            <password>xxxxxxxxxx</password>
         </server>
 		<server>
             <id>maven-snapshots</id>
-            <username>it.release</username>
-            <password>release123</password>
+            <username>xxxxxxxxx</username>
+            <password>xxxxxxxxx</password>
         </server>
 		<server>
             <id>maven-releases</id>
-            <username>it.release</username>
-            <password>release123</password>
+            <username>xxxxxxxxx</username>
+            <password>xxxxxxxxx</password>
         </server>
   </servers>
   <mirrors>

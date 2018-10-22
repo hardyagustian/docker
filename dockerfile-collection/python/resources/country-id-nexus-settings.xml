@@ -2,18 +2,18 @@
    <servers>
         <server>
             <id>maven-3rdparty</id>
-            <username>it.release</username>
-            <password>release123</password>
+            <username>xxxxxxxxxxxxxx</username>
+            <password>xxxxxxxxxxxxxx</password>
         </server>
 		<server>
             <id>maven-snapshots</id>
-            <username>it.release</username>
-            <password>release123</password>
+            <username>xxxxxxxxxxxxx</username>
+            <password>xxxxxxxxxxxxx</password>
         </server>
 		<server>
             <id>maven-releases</id>
-            <username>it.release</username>
-            <password>release123</password>
+            <username>xxxxxxxxxxxx</username>
+            <password>xxxxxxxxxxxx</password>
         </server>
   </servers>
   <mirrors>
@@ -52,7 +52,7 @@
         </activation>
         <properties>
 			<sonar.host.url>https://sonar.homecredit.id</sonar.host.url>
-			<sonar.login>ea0c821fe68fa5fa8db28f695426c3ee130ecabd</sonar.login>
+			<sonar.login>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</sonar.login>
         </properties>
     </profile>
   </profiles>
