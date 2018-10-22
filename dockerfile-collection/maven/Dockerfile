@@ -86,6 +86,7 @@ RUN update-ca-trust
 ## Set Timezone
 ENV TZ=Asia/Bangkok
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
-ENV http_proxy=http://acc.mobile%40hcg.homecredit.net:password1%24@proxy.homecredit.id:3128
-ENV https_proxy=http://acc.mobile%40hcg.homecredit.net:password1%24@proxy.homecredit.id:3128
-ENV no_proxy="nexus.homecredit.id, 127.0.0.1, localhost"
+## Add Proxy in image container
+ENV http_proxy=http://acc.mobile%40hcg.homecredit.net:xxxxxxxxxx%24@proxy.homecredit.id:3128
+ENV https_proxy=http://acc.mobile%40hcg.homecredit.net:xxxxxxxxxx%24@proxy.homecredit.id:3128
+ENV no_proxy="127.0.0.1, localhost"
