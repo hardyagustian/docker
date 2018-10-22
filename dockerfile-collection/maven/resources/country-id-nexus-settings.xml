@@ -52,7 +52,7 @@
         </activation>
         <properties>
 			<sonar.host.url>https://sonar.homecredit.id</sonar.host.url>
-			<sonar.login>ea0c821fe68fa5fa8db28f695426c3ee130ecabd</sonar.login>
+			<sonar.login>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</sonar.login>
         </properties>
     </profile>
   </profiles>
